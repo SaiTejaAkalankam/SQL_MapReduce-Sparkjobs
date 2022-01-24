@@ -1,0 +1,11 @@
+stream_jarfile: /Users/saitejaakalankam/Desktop/flask_assign/Dependencies/hadoop-streaming-3.2.2.jar
+path_of_mapper: /Users/saitejaakalankam/Desktop/flask_assign/JobModules/mapper.py
+path_of_reducer: /Users/saitejaakalankam/Desktop/flask_assign/JobModules/reducer.py
+input_dir: /assignment1/input
+output_dir: /assignment1/output
+clear_hdfs: /Users/saitejaakalankam/hadoop-3.2.2/bin/hdfs dfs -rm -r /assign1/output
+path_of_element: /Users/saitejaakalankam/Desktop/flasktest/Depend/elements.json
+local_output_dir: /Users/saitejaakalankam/Desktop/flasktest/Depend/map_red_output
+clear_localDirectory: rm -r -f /Users/saitejaakalankam/Desktop/flasktest/Depend/map_red_output/
+stormJar: /home/astrid/Desktop/flask/JobModules/stormTopo.jar
+stormMainPath: stormtopo.Topo

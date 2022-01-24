@@ -1,0 +1,43 @@
+users:
+- 'userid'
+- 'age'
+- 'gender'
+- 'occupation'
+- 'zipcode'
+
+zipcodes:
+- 'zipcode'
+- 'zipcodetype'
+- 'city'
+- 'state'
+
+movies:
+- 'movieid'
+- 'title'
+- 'releasedate'
+- 'unknown'
+- 'action'
+- 'adventure'
+- 'animation'
+- 'children'
+- 'comedy'
+- 'crime'
+- 'documentary'
+- 'drama'
+- 'fantasy'
+- 'film_noir'
+- 'horror'
+- 'musical'
+- 'mystery'
+- 'romance'
+- 'drama'
+- 'sci_fi'
+- 'thriller'
+- 'war'
+- 'western'
+
+rating:
+- 'userid'
+- 'movieid'
+- 'rating'
+- 'timestamp'

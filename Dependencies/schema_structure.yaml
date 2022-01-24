@@ -1,0 +1,43 @@
+users:
+    userid: IntegerType
+    age: IntegerType
+    gender: StringType
+    occupation: StringType
+    zipcode: StringType
+    
+zipcodes:
+    zipcode: IntegerType
+    zipcodetype: StringType
+    city: StringType
+    state: StringType
+
+movies:
+    movieid: IntegerType
+    title: StringType
+    releasedate: StringType
+    unknown: IntegerType
+    action: IntegerType
+    adventure: IntegerType
+    animation: IntegerType
+    children: IntegerType
+    comedy: IntegerType
+    crime: IntegerType
+    documentary: IntegerType  
+    drama: IntegerType
+    fantasy: IntegerType
+    film_noir: IntegerType
+    horror: IntegerType  
+    musical: IntegerType
+    mystery: IntegerType
+    romance: IntegerType
+    drama: IntegerType
+    sci_fi: IntegerType  
+    thriller: IntegerType
+    war: IntegerType
+    western: IntegerType
+    
+rating:
+    userid: IntegerType
+    movieid: IntegerType
+    rating: IntegerType
+    timestamp: StringType
